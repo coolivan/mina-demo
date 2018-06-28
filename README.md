@@ -8,4 +8,4 @@ api数据来源知乎新闻、点餐系统、豆瓣电影...
 
 ## 应用截图
 
-![截图](http://www.coolivan.com/demo/images/mina_demo.gif)
+![截图](https://github.com/coolivan/mina-demo/blob/master/demo.gif)
