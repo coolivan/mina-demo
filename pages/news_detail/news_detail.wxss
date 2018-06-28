@@ -1,0 +1,14 @@
+/* pages/news_detail/news_detail.wxss */
+.content{
+  padding: 30rpx;
+}
+.title{
+  font-weight: bold;
+  text-align: center;
+  padding: 32rpx 0;
+}
+.wrap{
+  font-size: 32rpx;
+  color: #666;
+  line-height: 2
+}

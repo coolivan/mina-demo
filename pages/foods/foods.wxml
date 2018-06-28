@@ -1,0 +1,13 @@
+
+<view class='content'>
+  <view class='wrap' wx:for="{{list}}" wx:for-item="item" wx:key="index">
+    <view class='title'>{{item.title}}</view>
+    <view class='list'>
+      <view class='item' wx:for="{{item.list}}" wx:for-item="food" bindtap='goDetail' data-id="{{food._id}}" wx:key="index">
+          <image src='{{host}}{{food.img_url}}'></image>
+          <text>{{food.title}}</text>
+
+      </view>
+    </view>
+  </view>
+</view>

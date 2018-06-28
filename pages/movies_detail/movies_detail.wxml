@@ -1,0 +1,14 @@
+<!--pages/movies_detail/movies_detail.wxml-->
+<image src='{{detail.cover}}'></image>
+<view class='content'>  
+      <view class='title'>{{detail.title}}</view>
+      <view>评分：<text class='rating'>{{detail.score}}</text></view>
+      <view>类别：{{detail.genres}}</view>
+      <view>时间：{{detail.year}}</view>
+      <view>导演：{{detail.directors}}</view>
+      <view>演员：{{detail.casts}}</view>
+      <view class='header'>概述：</view>
+      <view class='summary'>{{detail.summary}}</view>
+</view>
+
+

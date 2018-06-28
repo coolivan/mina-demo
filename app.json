@@ -1,0 +1,44 @@
+{
+  "pages":[
+    
+    "pages/movies/movies",
+    "pages/movies_detail/movies_detail",        
+    "pages/news/news",
+    "pages/news_detail/news_detail",
+    "pages/foods/foods",
+    "pages/foods_detail/foods_detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color":"black",
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "images/news.png",
+        "selectedIconPath":"images/news.png"
+      },
+      {
+        "pagePath": "pages/foods/foods",
+        "text": "点餐",
+        "iconPath":"images/foods.png",
+        "selectedIconPath":"images/foods.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "images/movies.png",
+        "selectedIconPath":"images/movies.png"
+      }
+      
+    ]
+  }
+
+}

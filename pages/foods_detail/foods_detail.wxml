@@ -1,0 +1,8 @@
+
+ <view class='content'>
+  <view class='wrap'>
+    <image src='{{host}}{{detail.img_url}}'></image> 
+    <view class='title'>{{detail.title}}</view>
+    <view class='detail'>{{detail.content}}</view>
+  </view>
+</view> 

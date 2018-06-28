@@ -1,0 +1,8 @@
+<!--pages/news_detail/news_detail.wxml-->
+
+<view class='content'>
+<block>
+  <view class='title'>{{detail.title}}</view>
+  <view class='wrap'>{{detail.body}}</view>
+</block>
+</view>

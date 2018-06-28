@@ -1,0 +1,14 @@
+
+<view class='content'>
+  <view class='header'>最新知讯</view>
+  <view class='wrap' wx:for="{{list}}" wx:for-item="item" wx:key="index" bindtap='goDetail' data-id="{{item.id}}">
+    <view class='item'>
+      <image src="{{item.images[0]}}"></image>
+      <view class='title'>{{item.title}}</view>
+    </view>  
+  </view>
+  <view class='header'>热门话题</view>
+  <view class='wrap' wx:for="{{top}}" wx:for-item="item" wx:key="index" bindtap='goDetail' data-id="{{item.id}}">
+    <view class='title'>{{item.title}}</view>
+  </view>
+</view>

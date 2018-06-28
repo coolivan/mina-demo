@@ -1,0 +1,38 @@
+/* pages/movies/movies.wxss */
+
+.content{
+  padding: 0 20rpx;
+}
+
+.header{
+  text-align: center;
+  font-weight: bold;
+  padding: 30rpx 0;
+}
+
+.item{
+  display: flex;
+  /* align-items:top; */
+  background: #f7f7f7;
+  margin-bottom: 20rpx;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+image{
+  width: 100px;
+  height: 150px;
+}
+
+.right{
+  font-size: 32rpx;
+  padding: 10rpx 20rpx;
+  flex: 1;
+}
+.title{
+   font-weight: bold; 
+   padding-bottom: 10rpx;
+}
+.rating{
+  color: orange;
+}

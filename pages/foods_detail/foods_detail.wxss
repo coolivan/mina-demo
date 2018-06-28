@@ -1,0 +1,9 @@
+/* pages/detail/detail.wxss */
+.title{
+  padding: 30rpx 30rpx 0;
+}
+.detail{
+  font-size: 32rpx;
+  color: #666;
+  padding: 30rpx;
+}

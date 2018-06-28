@@ -1,0 +1,19 @@
+/* pages/movies_detail/movies_detail.wxss */
+
+.content{
+  font-size: 32rpx;
+  padding: 20rpx;
+  line-height: 1.5;
+}
+.title{
+  font-weight: bold;
+  padding: 20rpx 0;
+}
+
+.rating{
+  color: orange;
+}
+
+.header{
+  
+}

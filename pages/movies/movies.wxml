@@ -1,0 +1,17 @@
+<!--pages/movies/movies.wxml-->
+<view class='content'>
+  <view class='item' wx:for='{{list}}' wx:for-item="item" wx:key="index" bindtap='goDetail' data-id="{{item.id}}">
+    <view class='left'>
+      <image src='{{item.cover}}'></image>
+    </view>    
+    <view class='right'>
+      <view class='title'>{{item.title}}</view>
+      <view>评分：<text class='rating'>{{item.score}}</text></view>
+      <view>类别：{{item.genres}}</view>
+      <view>时间：{{item.year}}</view>
+      <view>导演：{{item.directors}}</view>
+      <view>演员：{{item.casts}}</view>
+    </view>
+  </view>
+
+</view>
